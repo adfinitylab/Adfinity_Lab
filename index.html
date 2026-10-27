@@ -4,14 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Adfinity Lab is a digital marketing agency in Nepal: social media, SEO, paid ads, web design, branding and analytics from one team.">
+    <meta name="description"
+        content="Adfinity Lab is a digital marketing agency in Nepal: social media, SEO, paid ads, web design, branding and analytics from one team.">
     <meta name="theme-color" content="#000000">
     <title>Adfinity Lab | Digital Marketing Agency</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Inter+Tight:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Inter+Tight:wght@400;500;600;700&family=Sora:wght@600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <noscript><style>.loader{display:none}.nav,.hx-fade{opacity:1;transform:none}</style></noscript>
+    <noscript>
+        <style>
+            .loader {
+                display: none
+            }
+
+            .nav,
+            .hx-fade {
+                opacity: 1;
+                transform: none
+            }
+        </style>
+    </noscript>
 </head>
 
 <body>
@@ -26,7 +41,8 @@
     <!-- ============ NAVBAR: edit the links / text freely ============ -->
     <header class="nav">
         <div class="nav__in">
-            <a href="#home" class="logo" aria-label="Adfinity Lab, home"><img src="logo.png" alt="Adfinity Lab" width="202" height="34"></a>
+            <a href="#home" class="logo" aria-label="Adfinity Lab, home"><img src="logo.png" alt="Adfinity Lab"
+                    width="202" height="34"></a>
 
             <button class="burger" id="burger" aria-label="Menu"
                 aria-expanded="false"><span></span><span></span></button>
@@ -56,459 +72,497 @@
 
     <main>
 
-    <!-- ============ HERO: 3D scene + hover-letter headline ============ -->
-    <section class="hx" id="home" aria-labelledby="hxTitle">
+        <!-- ============ HERO: 3D scene + hover-letter headline ============ -->
+        <section class="hx" id="home" aria-labelledby="hxTitle">
 
-        <!-- 3D layer (decorative) -->
-        <canvas class="hx-canvas" id="hxCanvas" aria-hidden="true"></canvas>
-        
-        <!-- top-left line -->
-        <div class="hx-top hx-fade" style="--d:.5s">
-            <div class="hx-top__in"><p class="hx-lead">One team for<br>all your marketing</p></div>
-        </div>
+            <!-- 3D layer (decorative) -->
+            <canvas class="hx-canvas" id="hxCanvas" aria-hidden="true"></canvas>
 
-        <!-- headline: hover the letters -->
-        <div class="hx-stage">
-            <h1 class="hx-row" id="hxTitle" aria-label="Adfinity Lab">
-                <span class="hx-word hx-word--top" id="hxW1" aria-hidden="true"></span>
-                <span class="hx-word hx-word--bot" id="hxW2" aria-hidden="true"></span>
-            </h1>
-        </div>
-
-        <!-- bottom copy -->
-        <div class="hx-copy">
-            <p class="hx-eyebrow hx-fade" style="--d:.9s"><i></i>Digital marketing agency · Nepal</p>
-            <p class="hx-sub hx-fade" style="--d:1s">Strategy, design, ads and reporting are handled by the same people, so you deal with one team instead of several freelancers.</p>
-            <div class="hx-cta hx-fade" style="--d:1.1s">
-                <a class="btn" href="#contact">Get a free audit</a>
-                <a class="btn btn--ghost" href="#services">Our services</a>
+            <!-- top-left line -->
+            <div class="hx-top hx-fade" style="--d:.5s">
+                <div class="hx-top__in">
+                    <p class="hx-lead">One team for<br>all your marketing</p>
+                </div>
             </div>
-        </div>
-    </section>
+
+            <!-- headline: hover the letters -->
+            <div class="hx-stage">
+                <h1 class="hx-row" id="hxTitle" aria-label="Adfinity Lab">
+                    <span class="hx-word hx-word--top" id="hxW1" aria-hidden="true"></span>
+                    <span class="hx-word hx-word--bot" id="hxW2" aria-hidden="true"></span>
+                </h1>
+            </div>
+
+            <!-- bottom copy -->
+            <div class="hx-copy">
+                <p class="hx-eyebrow hx-fade" style="--d:.9s"><i></i>Digital marketing agency · Nepal</p>
+                <p class="hx-sub hx-fade" style="--d:1s">Strategy, design, ads and reporting are handled by the same
+                    people, so you deal with one team instead of several freelancers.</p>
+                <div class="hx-cta hx-fade" style="--d:1.1s">
+                    <a class="btn" href="#contact">Get a free audit</a>
+                    <a class="btn btn--ghost" href="#services">Our services</a>
+                </div>
+            </div>
+        </section>
 
 
-    <!-- ================= SERVICES ================= -->
-    <section class="services" id="services">
-        <div class="sticky">
-            <div class="track">
+        <!-- ================= SERVICES ================= -->
+        <section class="services" id="services">
+            <div class="sticky">
+                <div class="track">
 
-                <article class="slide">
-                    <div class="slide__title">
-                        <p class="label">Our Services</p>
-                        <h2>Social Media Management</h2>
-                    </div>
-                    <div class="slide__tile">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M7 17L17 7M8 7h9v9" />
-                        </svg>
-                        <em>01</em>
-                    </div>
-                    <div class="slide__text">
-                        <a href="#contact">Get Started</a>
-                        <a href="#contact">View Work</a>
-                        <p>Strategy, content creation, and community management to build your brand presence.</p>
+                    <article class="slide">
+                        <div class="slide__title">
+                            <p class="label">Our Services</p>
+                            <h2>Social Media Management</h2>
+                        </div>
+                        <div class="slide__tile">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 17L17 7M8 7h9v9" />
+                            </svg>
+                            <em>01</em>
+                        </div>
+                        <div class="slide__text">
+                            <a href="#contact">Get Started</a>
+                            <a href="#contact">View Work</a>
+                            <p>Strategy, content creation, and community management to build your brand presence.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <div class="slide__title">
+                            <p class="label">Our Services</p>
+                            <h2>SEO Optimization</h2>
+                        </div>
+                        <div class="slide__tile">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="11" cy="11" r="6" />
+                                <path d="M20 20l-4.2-4.2" />
+                            </svg>
+                            <em>02</em>
+                        </div>
+                        <div class="slide__text">
+                            <a href="#contact">Get Started</a>
+                            <a href="#contact">View Work</a>
+                            <p>Data-driven SEO strategies to improve rankings and organic traffic.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <div class="slide__title">
+                            <p class="label">Our Services</p>
+                            <h2>Paid Ads (Meta, Google)</h2>
+                        </div>
+                        <div class="slide__tile">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M13 3L5 14h6l-1 7 8-11h-6z" />
+                            </svg>
+                            <em>03</em>
+                        </div>
+                        <div class="slide__text">
+                            <a href="#contact">Get Started</a>
+                            <a href="#contact">View Work</a>
+                            <p>Performance-focused paid campaigns that maximize reach and conversions.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <div class="slide__title">
+                            <p class="label">Our Services</p>
+                            <h2>Website Design &amp; Development</h2>
+                        </div>
+                        <div class="slide__tile">
+                            <svg viewBox="0 0 24 24">
+                                <rect x="3" y="4" width="18" height="16" rx="2" />
+                                <path d="M3 9h18M9 9v11" />
+                            </svg>
+                            <em>04</em>
+                        </div>
+                        <div class="slide__text">
+                            <a href="#contact">Get Started</a>
+                            <a href="#contact">View Work</a>
+                            <p>Beautiful, fast, and conversion-optimized websites that drive results.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <div class="slide__title">
+                            <p class="label">Our Services</p>
+                            <h2>Branding &amp; Creative Design</h2>
+                        </div>
+                        <div class="slide__tile">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 3l2.2 6.3L21 12l-6.8 2.7L12 21l-2.2-6.3L3 12l6.8-2.7z" />
+                            </svg>
+                            <em>05</em>
+                        </div>
+                        <div class="slide__text">
+                            <a href="#contact">Get Started</a>
+                            <a href="#contact">View Work</a>
+                            <p>Compelling brand identity and creative assets that make you stand out.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <div class="slide__title">
+                            <p class="label">Our Services</p>
+                            <h2>Analytics &amp; Strategy</h2>
+                        </div>
+                        <div class="slide__tile">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M21 12a9 9 0 11-9-9M12 3v9h9" />
+                            </svg>
+                            <em>06</em>
+                        </div>
+                        <div class="slide__text">
+                            <a href="#contact">Get Started</a>
+                            <a href="#contact">View Work</a>
+                            <p>Deep insights and strategic planning to guide your marketing decisions.</p>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="progress">
+                    <div class="bar"><span id="bar"></span></div>
+                    <b id="counter">[1 /6]</b>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROCESS ================= -->
+        <section class="process" id="process">
+            <div class="process__head">
+                <h2>Our Process</h2>
+                <p>A proven 4-step framework to transform your marketing.</p>
+            </div>
+
+            <div class="steps" id="steps">
+                <div class="steps__track">
+                    <div class="steps__fill" id="fill"><span class="steps__dot"></span></div>
+                </div>
+
+                <article class="step">
+                    <div class="step__num" aria-hidden="true"><span>01</span></div>
+                    <div class="step__body">
+                        <small>Step 1</small>
+                        <h3>Research &amp; Strategy</h3>
+                        <p>Deep dive into your business, audience, and competitors to build a winning strategy.</p>
                     </div>
                 </article>
 
-                <article class="slide">
-                    <div class="slide__title">
-                        <p class="label">Our Services</p>
-                        <h2>SEO Optimization</h2>
+                <article class="step">
+                    <div class="step__num" aria-hidden="true"><span>02</span></div>
+                    <div class="step__body">
+                        <small>Step 2</small>
+                        <h3>Planning &amp; Positioning</h3>
+                        <p>Clear roadmaps, channel plans, and messaging aligned to your growth goals.</p>
                     </div>
-                    <div class="slide__tile">
-                        <svg viewBox="0 0 24 24">
-                            <circle cx="11" cy="11" r="6" />
+                </article>
+
+                <article class="step">
+                    <div class="step__num" aria-hidden="true"><span>03</span></div>
+                    <div class="step__body">
+                        <small>Step 3</small>
+                        <h3>Execution &amp; Launch</h3>
+                        <p>We design, build, publish, and manage campaigns with precision.</p>
+                    </div>
+                </article>
+
+                <article class="step">
+                    <div class="step__num" aria-hidden="true"><span>04</span></div>
+                    <div class="step__body">
+                        <small>Step 4</small>
+                        <h3>Optimization &amp; Scale</h3>
+                        <p>We track results, refine what works, and scale performance over time.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================= WHY ADFINITY ================= -->
+        <section class="why" id="about">
+            <div class="why-head">
+                <h2>Why Adfinity Lab?</h2>
+                <p>We're not just another agency. We're your growth partner.</p>
+            </div>
+
+            <div class="panels">
+
+                <!-- 1. Analytics line chart -->
+                <div class="panel" tabindex="0" role="button" aria-expanded="false">
+                    <span class="icon">&#9636;</span>
+                    <h3>Data-Driven Decisions</h3>
+                    <div class="more">
+                        <p>Every strategy is backed by real data and analytics, not guesswork.</p>
+                        <div class="viz" aria-hidden="true">
+                            <span class="chip">Conversions</span>
+                            <svg viewBox="0 0 400 96" preserveAspectRatio="none" class="line-chart">
+                                <line x1="0" y1="24" x2="400" y2="24" />
+                                <line x1="0" y1="48" x2="400" y2="48" />
+                                <line x1="0" y1="72" x2="400" y2="72" />
+                                <path class="area"
+                                    d="M0 80 C30 76 50 62 80 66 S130 44 160 48 S215 54 245 34 S320 22 392 10 L392 96 L0 96 Z" />
+                                <path class="stroke" pathLength="1"
+                                    d="M0 80 C30 76 50 62 80 66 S130 44 160 48 S215 54 245 34 S320 22 392 10" />
+                            </svg>
+                            <span class="end-dot"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. A/B ad test -->
+                <div class="panel" tabindex="0" role="button" aria-expanded="false">
+                    <span class="icon">&#10022;</span>
+                    <h3>Creative + Performance Blend</h3>
+                    <div class="more">
+                        <p>Beautiful creatives that perform. We balance art and science perfectly.</p>
+                        <div class="viz" aria-hidden="true">
+                            <div class="ab">
+                                <div class="ad">
+                                    <div class="thumb"></div>
+                                    <div class="ctr"><span>Ad A</span><span>CTR 1.8%</span></div>
+                                    <div class="meter"><i style="--w:38%"></i></div>
+                                </div>
+                                <div class="ad b">
+                                    <span class="win">Winner</span>
+                                    <div class="thumb"></div>
+                                    <div class="ctr"><span>Ad B</span><span>CTR 3.9%</span></div>
+                                    <div class="meter"><i style="--w:82%"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Marketing funnel -->
+                <div class="panel" tabindex="0" role="button" aria-expanded="false">
+                    <span class="icon">&#9889;&#xFE0E;</span>
+                    <h3>Scalable Marketing Systems</h3>
+                    <div class="more">
+                        <p>Build sustainable systems that grow with your business, not one-off campaigns.</p>
+                        <div class="viz" aria-hidden="true">
+                            <div class="funnel">
+                                <div class="layer" style="--w:100%"><span>Visitors</span></div>
+                                <div class="layer" style="--w:72%"><span>Leads</span></div>
+                                <div class="layer" style="--w:44%"><span>Customers</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. ROAS gauge + spend vs revenue -->
+                <div class="panel" tabindex="0" role="button" aria-expanded="false">
+                    <span class="icon">&#9678;</span>
+                    <h3>ROI-Focused Execution</h3>
+                    <div class="more">
+                        <p>We're obsessed with results. Every task is optimized to maximize return.</p>
+                        <div class="viz" aria-hidden="true">
+                            <div class="roi">
+                                <div class="gauge">
+                                    <svg viewBox="0 0 90 90">
+                                        <circle class="bg" cx="45" cy="45" r="36" />
+                                        <circle class="fg" cx="45" cy="45" r="36" transform="rotate(-90 45 45)"
+                                            style="--d:170" />
+                                    </svg>
+                                    <b><span data-count="4.2" data-dec="1">4.2</span>x</b>
+                                </div>
+                                <div class="rows">
+                                    <div class="row"><span>Ad spend</span>
+                                        <div class="meter"><i style="--w:28%"></i></div>
+                                    </div>
+                                    <div class="row"><span>Revenue (ROAS)</span>
+                                        <div class="meter"><i class="hot" style="--w:100%"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ================= FAQ ================= -->
+        <section class="faq" id="faq">
+            <div class="faq__in">
+                <div>
+                    <h2>Frequently Asked Questions</h2>
+
+                    <label class="faq__search">
+                        <input type="search" id="faqSearch" placeholder="Search a question"
+                            aria-label="Search questions" autocomplete="off">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="11" cy="11" r="6.5" />
                             <path d="M20 20l-4.2-4.2" />
                         </svg>
-                        <em>02</em>
-                    </div>
-                    <div class="slide__text">
-                        <a href="#contact">Get Started</a>
-                        <a href="#contact">View Work</a>
-                        <p>Data-driven SEO strategies to improve rankings and organic traffic.</p>
-                    </div>
-                </article>
+                    </label>
 
-                <article class="slide">
-                    <div class="slide__title">
-                        <p class="label">Our Services</p>
-                        <h2>Paid Ads (Meta, Google)</h2>
-                    </div>
-                    <div class="slide__tile">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M13 3L5 14h6l-1 7 8-11h-6z" />
-                        </svg>
-                        <em>03</em>
-                    </div>
-                    <div class="slide__text">
-                        <a href="#contact">Get Started</a>
-                        <a href="#contact">View Work</a>
-                        <p>Performance-focused paid campaigns that maximize reach and conversions.</p>
-                    </div>
-                </article>
-
-                <article class="slide">
-                    <div class="slide__title">
-                        <p class="label">Our Services</p>
-                        <h2>Website Design &amp; Development</h2>
-                    </div>
-                    <div class="slide__tile">
-                        <svg viewBox="0 0 24 24">
-                            <rect x="3" y="4" width="18" height="16" rx="2" />
-                            <path d="M3 9h18M9 9v11" />
-                        </svg>
-                        <em>04</em>
-                    </div>
-                    <div class="slide__text">
-                        <a href="#contact">Get Started</a>
-                        <a href="#contact">View Work</a>
-                        <p>Beautiful, fast, and conversion-optimized websites that drive results.</p>
-                    </div>
-                </article>
-
-                <article class="slide">
-                    <div class="slide__title">
-                        <p class="label">Our Services</p>
-                        <h2>Branding &amp; Creative Design</h2>
-                    </div>
-                    <div class="slide__tile">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 3l2.2 6.3L21 12l-6.8 2.7L12 21l-2.2-6.3L3 12l6.8-2.7z" />
-                        </svg>
-                        <em>05</em>
-                    </div>
-                    <div class="slide__text">
-                        <a href="#contact">Get Started</a>
-                        <a href="#contact">View Work</a>
-                        <p>Compelling brand identity and creative assets that make you stand out.</p>
-                    </div>
-                </article>
-
-                <article class="slide">
-                    <div class="slide__title">
-                        <p class="label">Our Services</p>
-                        <h2>Analytics &amp; Strategy</h2>
-                    </div>
-                    <div class="slide__tile">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M21 12a9 9 0 11-9-9M12 3v9h9" />
-                        </svg>
-                        <em>06</em>
-                    </div>
-                    <div class="slide__text">
-                        <a href="#contact">Get Started</a>
-                        <a href="#contact">View Work</a>
-                        <p>Deep insights and strategic planning to guide your marketing decisions.</p>
-                    </div>
-                </article>
-
-            </div>
-
-            <div class="progress">
-                <div class="bar"><span id="bar"></span></div>
-                <b id="counter">[1 /6]</b>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= PROCESS ================= -->
-    <section class="process" id="process">
-        <div class="process__head">
-            <h2>Our Process</h2>
-            <p>A proven 4-step framework to transform your marketing.</p>
-        </div>
-
-        <div class="steps" id="steps">
-            <div class="steps__track">
-                <div class="steps__fill" id="fill"><span class="steps__dot"></span></div>
-            </div>
-
-            <article class="step">
-                <div class="step__num" aria-hidden="true"><span>01</span></div>
-                <div class="step__body">
-                    <small>Step 1</small>
-                    <h3>Research &amp; Strategy</h3>
-                    <p>Deep dive into your business, audience, and competitors to build a winning strategy.</p>
-                </div>
-            </article>
-
-            <article class="step">
-                <div class="step__num" aria-hidden="true"><span>02</span></div>
-                <div class="step__body">
-                    <small>Step 2</small>
-                    <h3>Planning &amp; Positioning</h3>
-                    <p>Clear roadmaps, channel plans, and messaging aligned to your growth goals.</p>
-                </div>
-            </article>
-
-            <article class="step">
-                <div class="step__num" aria-hidden="true"><span>03</span></div>
-                <div class="step__body">
-                    <small>Step 3</small>
-                    <h3>Execution &amp; Launch</h3>
-                    <p>We design, build, publish, and manage campaigns with precision.</p>
-                </div>
-            </article>
-
-            <article class="step">
-                <div class="step__num" aria-hidden="true"><span>04</span></div>
-                <div class="step__body">
-                    <small>Step 4</small>
-                    <h3>Optimization &amp; Scale</h3>
-                    <p>We track results, refine what works, and scale performance over time.</p>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!-- ================= WHY ADFINITY ================= -->
-    <section class="why" id="about">
-        <div class="why-head">
-            <h2>Why Adfinity Lab?</h2>
-            <p>We're not just another agency. We're your growth partner.</p>
-        </div>
-
-        <div class="panels">
-
-            <!-- 1. Analytics line chart -->
-            <div class="panel" tabindex="0" role="button" aria-expanded="false">
-                <span class="icon">&#9636;</span>
-                <h3>Data-Driven Decisions</h3>
-                <div class="more">
-                    <p>Every strategy is backed by real data and analytics, not guesswork.</p>
-                    <div class="viz" aria-hidden="true">
-                        <span class="chip">Conversions</span>
-                        <svg viewBox="0 0 400 96" preserveAspectRatio="none" class="line-chart">
-                            <line x1="0" y1="24" x2="400" y2="24" />
-                            <line x1="0" y1="48" x2="400" y2="48" />
-                            <line x1="0" y1="72" x2="400" y2="72" />
-                            <path class="area"
-                                d="M0 80 C30 76 50 62 80 66 S130 44 160 48 S215 54 245 34 S320 22 392 10 L392 96 L0 96 Z" />
-                            <path class="stroke" pathLength="1"
-                                d="M0 80 C30 76 50 62 80 66 S130 44 160 48 S215 54 245 34 S320 22 392 10" />
-                        </svg>
-                        <span class="end-dot"></span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 2. A/B ad test -->
-            <div class="panel" tabindex="0" role="button" aria-expanded="false">
-                <span class="icon">&#10022;</span>
-                <h3>Creative + Performance Blend</h3>
-                <div class="more">
-                    <p>Beautiful creatives that perform. We balance art and science perfectly.</p>
-                    <div class="viz" aria-hidden="true">
-                        <div class="ab">
-                            <div class="ad">
-                                <div class="thumb"></div>
-                                <div class="ctr"><span>Ad A</span><span>CTR 1.8%</span></div>
-                                <div class="meter"><i style="--w:38%"></i></div>
-                            </div>
-                            <div class="ad b">
-                                <span class="win">Winner</span>
-                                <div class="thumb"></div>
-                                <div class="ctr"><span>Ad B</span><span>CTR 3.9%</span></div>
-                                <div class="meter"><i style="--w:82%"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 3. Marketing funnel -->
-            <div class="panel" tabindex="0" role="button" aria-expanded="false">
-                <span class="icon">&#9889;&#xFE0E;</span>
-                <h3>Scalable Marketing Systems</h3>
-                <div class="more">
-                    <p>Build sustainable systems that grow with your business, not one-off campaigns.</p>
-                    <div class="viz" aria-hidden="true">
-                        <div class="funnel">
-                            <div class="layer" style="--w:100%"><span>Visitors</span></div>
-                            <div class="layer" style="--w:72%"><span>Leads</span></div>
-                            <div class="layer" style="--w:44%"><span>Customers</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 4. ROAS gauge + spend vs revenue -->
-            <div class="panel" tabindex="0" role="button" aria-expanded="false">
-                <span class="icon">&#9678;</span>
-                <h3>ROI-Focused Execution</h3>
-                <div class="more">
-                    <p>We're obsessed with results. Every task is optimized to maximize return.</p>
-                    <div class="viz" aria-hidden="true">
-                        <div class="roi">
-                            <div class="gauge">
-                                <svg viewBox="0 0 90 90">
-                                    <circle class="bg" cx="45" cy="45" r="36" />
-                                    <circle class="fg" cx="45" cy="45" r="36" transform="rotate(-90 45 45)"
-                                        style="--d:170" />
-                                </svg>
-                                <b><span data-count="4.2" data-dec="1">4.2</span>x</b>
-                            </div>
-                            <div class="rows">
-                                <div class="row"><span>Ad spend</span>
-                                    <div class="meter"><i style="--w:28%"></i></div>
+                    <div>
+                        <div class="faq__item is-open">
+                            <h3><button class="faq__q" id="faq-q1" aria-expanded="true" aria-controls="faq-a1">What
+                                    services does Adfinity Lab offer?<span class="faq__icon"
+                                        aria-hidden="true"></span></button></h3>
+                            <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1">
+                                <div>
+                                    <p>We manage social media, SEO, paid ads on Meta and Google, website design and
+                                        development, branding and creative design, and analytics and strategy.</p>
                                 </div>
-                                <div class="row"><span>Revenue (ROAS)</span>
-                                    <div class="meter"><i class="hot" style="--w:100%"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <h3><button class="faq__q" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">How long
+                                    until I see results?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+                            <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2">
+                                <div>
+                                    <p>Paid ads can bring visitors within days of launch. SEO and brand building take
+                                        longer, and most sites see steady gains over a few months. We share a clear
+                                        timeline for your goals at the start.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <h3><button class="faq__q" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">Do you
+                                    offer a free audit?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+                            <div class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3">
+                                <div>
+                                    <p>Yes. Use the “Get a free audit” button and we’ll review your website, search
+                                        presence and ads, then tell you where the biggest gains are.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <h3><button class="faq__q" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">How much
+                                    does it cost?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+                            <div class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4">
+                                <div>
+                                    <p>It depends on your goals, the channels you need and your budget. Send us a
+                                        message through the contact form and we’ll reply with a clear quote.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <h3><button class="faq__q" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">Which
+                                    platforms do you run ads on?<span class="faq__icon"
+                                        aria-hidden="true"></span></button></h3>
+                            <div class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5">
+                                <div>
+                                    <p>Meta (Facebook and Instagram) and Google. We choose the channels based on where
+                                        your customers spend their time.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <h3><button class="faq__q" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">How will
+                                    I know it is working?<span class="faq__icon" aria-hidden="true"></span></button>
+                            </h3>
+                            <div class="faq__a" id="faq-a6" role="region" aria-labelledby="faq-q6">
+                                <div>
+                                    <p>You get regular reports on the numbers that matter, such as traffic, leads and
+                                        return on ad spend, plus notes on what we will do next.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-        </div>
-    </section>
-    <!-- ================= FAQ ================= -->
-    <section class="faq" id="faq">
-        <div class="faq__in">
-            <div>
-                <h2>Frequently Asked Questions</h2>
-
-                <label class="faq__search">
-                    <input type="search" id="faqSearch" placeholder="Search a question" aria-label="Search questions"
-                        autocomplete="off">
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <circle cx="11" cy="11" r="6.5" />
-                        <path d="M20 20l-4.2-4.2" />
-                    </svg>
-                </label>
-
-                <div>
-            <div class="faq__item is-open">
-                <h3><button class="faq__q" id="faq-q1" aria-expanded="true" aria-controls="faq-a1">What services does Adfinity Lab offer?<span class="faq__icon" aria-hidden="true"></span></button></h3>
-                <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1">
-                    <div><p>We manage social media, SEO, paid ads on Meta and Google, website design and development, branding and creative design, and analytics and strategy.</p></div>
-                </div>
-            </div>
-
-            <div class="faq__item">
-                <h3><button class="faq__q" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">How long until I see results?<span class="faq__icon" aria-hidden="true"></span></button></h3>
-                <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2">
-                    <div><p>Paid ads can bring visitors within days of launch. SEO and brand building take longer, and most sites see steady gains over a few months. We share a clear timeline for your goals at the start.</p></div>
-                </div>
-            </div>
-
-            <div class="faq__item">
-                <h3><button class="faq__q" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">Do you offer a free audit?<span class="faq__icon" aria-hidden="true"></span></button></h3>
-                <div class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3">
-                    <div><p>Yes. Use the “Get a free audit” button and we’ll review your website, search presence and ads, then tell you where the biggest gains are.</p></div>
-                </div>
-            </div>
-
-            <div class="faq__item">
-                <h3><button class="faq__q" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">How much does it cost?<span class="faq__icon" aria-hidden="true"></span></button></h3>
-                <div class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4">
-                    <div><p>It depends on your goals, the channels you need and your budget. Send us a message through the contact form and we’ll reply with a clear quote.</p></div>
-                </div>
-            </div>
-
-            <div class="faq__item">
-                <h3><button class="faq__q" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">Which platforms do you run ads on?<span class="faq__icon" aria-hidden="true"></span></button></h3>
-                <div class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5">
-                    <div><p>Meta (Facebook and Instagram) and Google. We choose the channels based on where your customers spend their time.</p></div>
-                </div>
-            </div>
-
-            <div class="faq__item">
-                <h3><button class="faq__q" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">How will I know it is working?<span class="faq__icon" aria-hidden="true"></span></button></h3>
-                <div class="faq__a" id="faq-a6" role="region" aria-labelledby="faq-q6">
-                    <div><p>You get regular reports on the numbers that matter, such as traffic, leads and return on ad spend, plus notes on what we will do next.</p></div>
-                </div>
-            </div>
+                    <p class="faq__empty" id="faqEmpty" hidden>No question found. <a href="#contact">Ask us directly</a>
+                    </p>
                 </div>
 
-                <p class="faq__empty" id="faqEmpty" hidden>No question found. <a href="#contact">Ask us directly</a></p>
+                <svg class="faq__art" viewBox="0 0 520 420" role="img" aria-label="Big FAQ letters with question marks">
+                    <ellipse cx="260" cy="376" rx="220" ry="20" fill="#fff" fill-opacity=".04" />
+                    <g font-family="Sora, 'Arial Black', sans-serif" font-weight="700" font-size="190"
+                        text-anchor="middle" fill="#fff">
+                        <g transform="rotate(-6 112 330)">
+                            <text x="122" y="341" fill-opacity=".3">F</text>
+                            <text x="117" y="336" fill-opacity=".55">F</text>
+                            <text x="112" y="330">F</text>
+                        </g>
+                        <g>
+                            <text x="268" y="341" fill-opacity=".3">A</text>
+                            <text x="263" y="336" fill-opacity=".55">A</text>
+                            <text x="258" y="330">A</text>
+                        </g>
+                        <g transform="rotate(5 410 322)">
+                            <text x="420" y="333" fill-opacity=".3">Q</text>
+                            <text x="415" y="328" fill-opacity=".55">Q</text>
+                            <text x="410" y="322">Q</text>
+                        </g>
+                    </g>
+                    <g font-family="Sora, 'Arial Black', sans-serif" font-weight="700" text-anchor="middle" fill="#fff">
+                        <g class="faq__mark"><text x="262" y="150" font-size="120"
+                                transform="rotate(-8 262 120)">?</text></g>
+                        <g class="faq__mark" style="animation-delay:-1.3s"><text x="372" y="100" font-size="46"
+                                fill-opacity=".75" transform="rotate(10 372 85)">?</text></g>
+                        <g class="faq__mark" style="animation-delay:-2.4s"><text x="448" y="64" font-size="30"
+                                fill-opacity=".55" transform="rotate(-12 448 55)">?</text></g>
+                        <g class="faq__mark" style="animation-delay:-3.1s"><text x="104" y="140" font-size="34"
+                                fill-opacity=".55" transform="rotate(-14 104 130)">?</text></g>
+                    </g>
+                </svg>
             </div>
+        </section>
 
-            <svg class="faq__art" viewBox="0 0 520 420" role="img" aria-label="Big FAQ letters with question marks">
-              <ellipse cx="260" cy="376" rx="220" ry="20" fill="#fff" fill-opacity=".04"/>
-              <g font-family="Sora, 'Arial Black', sans-serif" font-weight="700" font-size="190" text-anchor="middle" fill="#fff">
-                <g transform="rotate(-6 112 330)">
-                  <text x="122" y="341" fill-opacity=".3">F</text>
-                  <text x="117" y="336" fill-opacity=".55">F</text>
-                  <text x="112" y="330">F</text>
-                </g>
-                <g>
-                  <text x="268" y="341" fill-opacity=".3">A</text>
-                  <text x="263" y="336" fill-opacity=".55">A</text>
-                  <text x="258" y="330">A</text>
-                </g>
-                <g transform="rotate(5 410 322)">
-                  <text x="420" y="333" fill-opacity=".3">Q</text>
-                  <text x="415" y="328" fill-opacity=".55">Q</text>
-                  <text x="410" y="322">Q</text>
-                </g>
-              </g>
-              <g font-family="Sora, 'Arial Black', sans-serif" font-weight="700" text-anchor="middle" fill="#fff">
-                <g class="faq__mark"><text x="262" y="150" font-size="120" transform="rotate(-8 262 120)">?</text></g>
-                <g class="faq__mark" style="animation-delay:-1.3s"><text x="372" y="100" font-size="46" fill-opacity=".75" transform="rotate(10 372 85)">?</text></g>
-                <g class="faq__mark" style="animation-delay:-2.4s"><text x="448" y="64" font-size="30" fill-opacity=".55" transform="rotate(-12 448 55)">?</text></g>
-                <g class="faq__mark" style="animation-delay:-3.1s"><text x="104" y="140" font-size="34" fill-opacity=".55" transform="rotate(-14 104 130)">?</text></g>
-              </g>
+        <!-- ================= CONTACT ================= -->
+        <section class="contact" id="contact">
+            <!-- decorative circuit lines -->
+            <svg class="contact__lines contact__lines--left" viewBox="0 0 240 200" aria-hidden="true">
+                <path d="M0 20 H40 Q55 20 65 40 Q80 62 100 62 H150" />
+                <circle cx="100" cy="62" r="4" />
+                <path d="M0 40 Q30 45 50 80 Q62 110 90 110 H150" />
+                <circle cx="150" cy="110" r="4" />
             </svg>
-        </div>
-    </section>
+            <svg class="contact__lines contact__lines--right" viewBox="0 0 240 200" aria-hidden="true">
+                <path d="M240 20 H200 Q185 20 175 40 Q160 62 140 62 H90" />
+                <circle cx="140" cy="62" r="4" />
+                <path d="M240 40 Q210 45 190 80 Q178 110 150 110 H90" />
+            </svg>
 
-    <!-- ================= CONTACT ================= -->
-    <section class="contact" id="contact">
-        <!-- decorative circuit lines -->
-        <svg class="contact__lines contact__lines--left" viewBox="0 0 240 200" aria-hidden="true">
-            <path d="M0 20 H40 Q55 20 65 40 Q80 62 100 62 H150" />
-            <circle cx="100" cy="62" r="4" />
-            <path d="M0 40 Q30 45 50 80 Q62 110 90 110 H150" />
-            <circle cx="150" cy="110" r="4" />
-        </svg>
-        <svg class="contact__lines contact__lines--right" viewBox="0 0 240 200" aria-hidden="true">
-            <path d="M240 20 H200 Q185 20 175 40 Q160 62 140 62 H90" />
-            <circle cx="140" cy="62" r="4" />
-            <path d="M240 40 Q210 45 190 80 Q178 110 150 110 H90" />
-        </svg>
+            <div class="contact__ghost" aria-hidden="true">CONTACT</div>
 
-        <div class="contact__ghost" aria-hidden="true">CONTACT</div>
+            <div class="contact__wrap">
+                <div class="contact__info">
+                    <span class="contact__chip">◉ Say hello</span>
+                    <h2>Let’s build it</h2>
+                    <p class="contact__lead">Tell us what you keep doing by hand and we’ll show you what it looks like
+                        automated.</p>
 
-        <div class="contact__wrap">
-            <div class="contact__info">
-                <span class="contact__chip">◉ Say hello</span>
-                <h2>Let’s build it</h2>
-                <p class="contact__lead">Tell us what you keep doing by hand and we’ll show you what it looks like
-                    automated.</p>
-
-                <a class="contact__row" href="tel:+9779740831769">
-                    <span class="contact__icon">☎&#xFE0E;</span>
-                    <span class="contact__text"><strong>Talk to us</strong><small>+977 9740831769</small></span>
-                    <span class="contact__arrow">↗</span>
-                </a>
-                <a class="contact__row" href="mailto:adfinitylab@gmail.com">
-                    <span class="contact__icon">✉&#xFE0E;</span>
-                    <span class="contact__text"><strong>Email the team</strong><small>adfinitylab@gmail.com</small></span>
-                    <span class="contact__arrow">↗</span>
-                </a>
-                <!-- <a class="contact__row" href="#contact">
+                    <a class="contact__row" href="tel:+9779740831769">
+                        <span class="contact__icon">☎&#xFE0E;</span>
+                        <span class="contact__text"><strong>Talk to us</strong><small>+977 9740831769</small></span>
+                        <span class="contact__arrow">↗</span>
+                    </a>
+                    <a class="contact__row" href="mailto:adfinitylab@gmail.com">
+                        <span class="contact__icon">✉&#xFE0E;</span>
+                        <span class="contact__text"><strong>Email the
+                                team</strong><small>adfinitylab@gmail.com</small></span>
+                        <span class="contact__arrow">↗</span>
+                    </a>
+                    <!-- <a class="contact__row" href="#contact">
                     <span class="contact__icon">⌖</span>
                     <span class="contact__text"><strong>Find the studio</strong><small>Your street, Your city</small></span>
                     <span class="contact__arrow">↗</span>
                 </a> -->
-            </div>
+                </div>
 
-            <!-- action = FormSubmit: emails every submission to adfinitylab@gmail.com (first submission asks you to confirm once) -->
-            <form class="contact__form" id="contactForm" action="https://formsubmit.co/ajax/adfinitylab@gmail.com" method="post"
-                novalidate>
-                <input type="hidden" name="_subject" value="New message from the Adfinity Lab website">
-                <input type="hidden" name="_template" value="table">
-                <input type="text" name="name" placeholder="Name" aria-label="Name" required>
-                <input type="email" name="email" placeholder="Email" aria-label="Email" required>
-                <textarea name="message" placeholder="Message" aria-label="Message" required></textarea>
-                <p class="contact__status" id="status" role="status" aria-live="polite"></p>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
-</main>
+                <!-- action = FormSubmit: emails every submission to adfinitylab@gmail.com (first submission asks you to confirm once) -->
+                <form class="contact__form" id="contactForm" action="https://formsubmit.co/ajax/adfinitylab@gmail.com"
+                    method="post" novalidate>
+                    <input type="hidden" name="_subject" value="New message from the Adfinity Lab website">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" name="name" placeholder="Name" aria-label="Name" required>
+                    <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+                    <textarea name="message" placeholder="Message" aria-label="Message" required></textarea>
+                    <p class="contact__status" id="status" role="status" aria-live="polite"></p>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <!-- ================= FOOTER ================= -->
     <div class="site-footer">
@@ -517,7 +571,8 @@
         <section class="ft-cta" id="ftCta">
             <a href="#contact" class="ft-cta__link" aria-label="Start a project with Adfinity Lab">
                 <div class="ft-marquee" aria-hidden="true">
-                    <span class="ft-marquee__track">LET'S COLLABORATE · LET'S COLLABORATE · LET'S COLLABORATE · LET'S COLLABORATE · </span>
+                    <span class="ft-marquee__track">LET'S COLLABORATE · LET'S COLLABORATE · LET'S COLLABORATE · LET'S
+                        COLLABORATE · </span>
                 </div>
                 <p class="ft-cta__label">Click to start a project</p>
                 <span class="ft-cta__btn" id="ftBtn">Start Project &#8599;</span>
