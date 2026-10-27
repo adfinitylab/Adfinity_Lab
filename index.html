@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Adfinity Lab is a digital marketing agency in Nepal: social media, SEO, paid ads, web design, branding and analytics from one team.">
+    <meta name="theme-color" content="#000000">
     <title>Adfinity Lab | Digital Marketing Agency</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=DM+Sans:wght@400;500&family=Sora:wght@600;700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=JetBrains+Mono:wght@400;500&family=Anton&family=Inter:wght@800&family=Instrument+Serif:ital@0;1&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Inter+Tight:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <noscript><style>.loader{display:none}.nav,.hx-fade{opacity:1;transform:none}</style></noscript>
 </head>
 
 <body>
 
     <!-- ============ LOADER (brand name shows first) ============ -->
-    <div class="loader" id="loader">
+    <div class="loader" id="loader" aria-hidden="true">
         <div class="loader__box"><i></i><i></i><i></i><i></i><b>ADFINITY LAB</b></div>
         <span class="loader__num" id="num">00</span>
         <span class="loader__line"><u id="lineFill"></u></span>
@@ -25,7 +26,7 @@
     <!-- ============ NAVBAR: edit the links / text freely ============ -->
     <header class="nav">
         <div class="nav__in">
-            <a href="#home" class="logo" aria-label="Adfinity Lab, home"><img src="logo.png" alt="Adfinity Lab" width="200" height="34"></a>
+            <a href="#home" class="logo" aria-label="Adfinity Lab, home"><img src="logo.png" alt="Adfinity Lab" width="202" height="34"></a>
 
             <button class="burger" id="burger" aria-label="Menu"
                 aria-expanded="false"><span></span><span></span></button>
@@ -68,7 +69,7 @@
 
         <!-- headline: hover the letters -->
         <div class="hx-stage">
-            <h1 class="hx-row" id="hxRow" aria-label="Adfinity Lab">
+            <h1 class="hx-row" id="hxTitle" aria-label="Adfinity Lab">
                 <span class="hx-word hx-word--top" id="hxW1" aria-hidden="true"></span>
                 <span class="hx-word hx-word--bot" id="hxW2" aria-hidden="true"></span>
             </h1>
@@ -93,7 +94,7 @@
 
                 <article class="slide">
                     <div class="slide__title">
-                        <span class="label"><h1>Our Services</h1></span>
+                        <p class="label">Our Services</p>
                         <h2>Social Media Management</h2>
                     </div>
                     <div class="slide__tile">
@@ -111,7 +112,7 @@
 
                 <article class="slide">
                     <div class="slide__title">
-                        <span class="label"><h1>Our Services</h1></span>
+                        <p class="label">Our Services</p>
                         <h2>SEO Optimization</h2>
                     </div>
                     <div class="slide__tile">
@@ -130,7 +131,7 @@
 
                 <article class="slide">
                     <div class="slide__title">
-                        <span class="label"><h1>Our Services</h1></span>
+                        <p class="label">Our Services</p>
                         <h2>Paid Ads (Meta, Google)</h2>
                     </div>
                     <div class="slide__tile">
@@ -148,7 +149,7 @@
 
                 <article class="slide">
                     <div class="slide__title">
-                        <span class="label"><h1>Our Services</h1></span>
+                        <p class="label">Our Services</p>
                         <h2>Website Design &amp; Development</h2>
                     </div>
                     <div class="slide__tile">
@@ -167,7 +168,7 @@
 
                 <article class="slide">
                     <div class="slide__title">
-                        <span class="label"><h1>Our Services</h1></span>
+                        <p class="label">Our Services</p>
                         <h2>Branding &amp; Creative Design</h2>
                     </div>
                     <div class="slide__tile">
@@ -185,7 +186,7 @@
 
                 <article class="slide">
                     <div class="slide__title">
-                        <span class="label"><h1>Our Services</h1></span>
+                        <p class="label">Our Services</p>
                         <h2>Analytics &amp; Strategy</h2>
                     </div>
                     <div class="slide__tile">
@@ -317,7 +318,7 @@
 
             <!-- 3. Marketing funnel -->
             <div class="panel" tabindex="0" role="button" aria-expanded="false">
-                <span class="icon">&#9889;</span>
+                <span class="icon">&#9889;&#xFE0E;</span>
                 <h3>Scalable Marketing Systems</h3>
                 <div class="more">
                     <p>Build sustainable systems that grow with your business, not one-off campaigns.</p>
@@ -425,7 +426,7 @@
             </div>
 
             <svg class="faq__art" viewBox="0 0 520 420" role="img" aria-label="Big FAQ letters with question marks">
-              <ellipse cx="260" cy="376" rx="220" ry="20" fill="#fff" fill-opacity=".14"/>
+              <ellipse cx="260" cy="376" rx="220" ry="20" fill="#fff" fill-opacity=".04"/>
               <g font-family="Sora, 'Arial Black', sans-serif" font-weight="700" font-size="190" text-anchor="middle" fill="#fff">
                 <g transform="rotate(-6 112 330)">
                   <text x="122" y="341" fill-opacity=".3">F</text>
@@ -477,26 +478,28 @@
                 <p class="contact__lead">Tell us what you keep doing by hand and we’ll show you what it looks like
                     automated.</p>
 
-                <a class="contact__row" href="tel:+9779800000000">
-                    <span class="contact__icon">☎</span>
-                    <span class="contact__text"><strong>Talk to us</strong><small>+977 980-000-0000</small></span>
+                <a class="contact__row" href="tel:+9779740831769">
+                    <span class="contact__icon">☎&#xFE0E;</span>
+                    <span class="contact__text"><strong>Talk to us</strong><small>+977 9740831769</small></span>
                     <span class="contact__arrow">↗</span>
                 </a>
-                <a class="contact__row" href="mailto:hello@yourdomain.com">
-                    <span class="contact__icon">✉</span>
-                    <span class="contact__text"><strong>Email the team</strong><small>hello@yourdomain.com</small></span>
+                <a class="contact__row" href="mailto:adfinitylab@gmail.com">
+                    <span class="contact__icon">✉&#xFE0E;</span>
+                    <span class="contact__text"><strong>Email the team</strong><small>adfinitylab@gmail.com</small></span>
                     <span class="contact__arrow">↗</span>
                 </a>
-                <a class="contact__row" href="#contact">
+                <!-- <a class="contact__row" href="#contact">
                     <span class="contact__icon">⌖</span>
                     <span class="contact__text"><strong>Find the studio</strong><small>Your street, Your city</small></span>
                     <span class="contact__arrow">↗</span>
-                </a>
+                </a> -->
             </div>
 
-            <!-- action = where the form is sent (Formspree, your Django URL, etc.) -->
-            <form class="contact__form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="post"
+            <!-- action = FormSubmit: emails every submission to adfinitylab@gmail.com (first submission asks you to confirm once) -->
+            <form class="contact__form" id="contactForm" action="https://formsubmit.co/ajax/adfinitylab@gmail.com" method="post"
                 novalidate>
+                <input type="hidden" name="_subject" value="New message from the Adfinity Lab website">
+                <input type="hidden" name="_template" value="table">
                 <input type="text" name="name" placeholder="Name" aria-label="Name" required>
                 <input type="email" name="email" placeholder="Email" aria-label="Email" required>
                 <textarea name="message" placeholder="Message" aria-label="Message" required></textarea>
@@ -525,7 +528,7 @@
             <div class="ft__grid">
 
                 <div class="ft__brand">
-                    <a href="#home" class="ft__logo"><span>A</span>dfinity</a>
+                    <a href="#home" class="ft__logo">Adfinity</a>
                     <p>Digital marketing agency.<br>Strategy. Creative. Results.</p>
                 </div>
 
@@ -550,8 +553,8 @@
 
                 <div class="ft__col">
                     <h4>Contact</h4>
-                    <a href="tel:+9779800000000">+977 980-000-0000</a>
-                    <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+                    <a href="tel:+9779740831769">+977 9740831769</a>
+                    <a href="mailto:adfinitylab@gmail.com">adfinitylab@gmail.com</a>
                     <a href="#contact" class="ft__btn">Get a free audit</a>
                 </div>
 
