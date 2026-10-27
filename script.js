@@ -25,7 +25,7 @@ const mouseDevice = matchMedia('(hover: hover) and (pointer: fine)').matches;
 
 /* ================= 2. HERO: glass shape + logo letters, then the loader ================= */
 const hero = $('#home');
-let startHero = () => {};                                  // set below, called when the loader ends
+let startHero = () => { };                                  // set below, called when the loader ends
 
 (() => {
   /* ---------- glass shape (WebGL shader) ---------- */
